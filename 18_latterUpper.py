@@ -9,7 +9,7 @@ Python is a popular programming language.
 text = 'python is a popular programming language.'
 text = text[0].upper() + text[1:]
 print(text)
-
+ 
 # another method
 # print(text.capitalize())
 # The capitalize() method returns a string where the first character is upper case, and the rest is lower case.

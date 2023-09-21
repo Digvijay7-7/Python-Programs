@@ -17,7 +17,7 @@ Expected result:
 path1: 49
 path2: 49
 path3: -1
-'''
+''' 
 path1 = (
     'https://e-smartdata.teachable.com/p/'
     'sciezka-data-scientist-machine-learning-engineer'

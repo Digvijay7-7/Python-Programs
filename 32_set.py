@@ -28,5 +28,4 @@ print(len(letters))
 consonants = letters.difference(vowels)
 print(consonants)
  
- 
 print(f'Number of items: {len(consonants)}')

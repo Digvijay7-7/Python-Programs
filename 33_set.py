@@ -13,5 +13,4 @@ B = {4, 10}
  
 sym_diff = A.symmetric_difference(B)
  
- 
 print(f'Symmetric difference: {sym_diff}')
