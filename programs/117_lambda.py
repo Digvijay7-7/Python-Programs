@@ -19,4 +19,4 @@ def is_palindrome(string):
     else:
         return False
     
-print(is_palindrome('level'))
+print(is_palindrome('level')) 
