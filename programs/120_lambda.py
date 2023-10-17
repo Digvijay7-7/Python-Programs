@@ -7,7 +7,7 @@ Sort the list by the growing sum of squares of numbers in each tuple. Use the so
 Expected result:
 [(1, 4), (3, 4), (2, 5), (6, 1)]
 '''
+
 items = [(3, 4), (2, 5), (1, 4), (6, 1)]
 items.sort(key=lambda item: item[0]**2 + item[1]**2)
-
 print(items)
