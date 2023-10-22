@@ -5,6 +5,6 @@ Expected result:
 Probability: x.xxxx
 '''
 omega = {(i, j, k) for i in range(1, 7) for j in range(1, 7) for k in range(1,7)}
-sum_div_7 = {(x, y, z) for x, y, z in omega if (x + y + z) % 7 == 0}
+sum_div_3 = {(x, y, z) for x, y, z in omega if(x**2 + y**2 + z**2) % 3 ==0}
 
-print(f'Probability: {len(sum_div_7) / len(omega):.2f}')
+print(f'Probability: {len(sum_div_3) / len(omega):.4f}')
