@@ -25,9 +25,14 @@ class Product:
             f"price={self.price})"
         )
  
-    @staticmethod
+    @staticmethod 
     def get_id():
         return str(uuid.uuid4().fields[-1])[:6]
   
 for name in Product.__dict__:
     print(name)
+    
+'''
+@staticmethod : A static method is a method that belongs to a class rather than an instance of the class. Unlike regular methods in a class, it doesn't have access to the instance itself (self) or its attributes. It is defined with the @staticmethod decorator.
+uuid : stands for universally unique identifier, and it is used to generate unique identifiers.
+'''

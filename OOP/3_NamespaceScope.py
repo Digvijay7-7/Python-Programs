@@ -22,3 +22,4 @@ class Product:
 
 product = Product('Mobile Phone', '54274', 2900)
 print(product.__dict__)
+
