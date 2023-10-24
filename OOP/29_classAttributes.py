@@ -15,7 +15,7 @@ class OnlineShop:
     sector_code = 'ELE'
     is_public_company = False
     
-OnlineShop.__delattr__ (sector_code)
+del OnlineShop.sector_code
 
 key = [attr for attr in OnlineShop.__dict__.keys() if not attr.startswith('_')]
 
